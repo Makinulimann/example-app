@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2D9596;
+    transition: background-color 0.3s ease;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #9AD0C2, #2D9596);
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*--------- BANNER --------*/
+#banner {
+    background-image: linear-gradient(to top, #2D9596, #fff);
+    color: #fff;
+    padding-top: 5%;
+}
+
+#banner .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2D9596;
+}
+
+.slogan {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.img-fluid {
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/*-------- SERVICE ------------*/
+
+#layanan {
+    padding: 80px 0;
+}
+
+.layanan {
+    padding: 20px;
+}
+
+.layanan h4 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+.img-layanan {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.title::before {
+    content: '';
+    background: #2D9596;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 2.5px;
+}
+
+.title::after {
+    content: '';
+    background: #2D9596;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    border-radius: 5px;
+}
+
+#layanan .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #9AD0C2, #2D9596);
+}
+
+/* ------------ Artikel ---------------- */
+.card-artikel {
+    margin-right: 20px;
+}
+
+.card-artikel img {
+    width: auto;
+    height: 200px;
+}
+
+.button-arrow-left {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #9AD0C2;
+}
+
+.button-arrow-left a {
+    color: #fff;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #9AD0C2;
+}
+
+/* Other styles */
+
+#artikel .btn {
+    background-color: #2D9596;
+    border-color: #2D9596;
+    margin-right: 10px;
+}
+
+#artikel .btn:hover {
+    background-color: #238484; /* Slightly darker shade for hover effect */
+    border-color: #238484;
+}
+
+
+/* More styles */
+
+
+
+/* Tentang */
+
+#tentang {
+    background-color: #9AD0C2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#tentang p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* contact */
+
+#contact {
+    background-color: #9AD0C2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* --------------------------------------------------------------------------------- */
+/* Login.html */
+#login .card{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 40%;
+    border-radius: 20px;
+}
+
+#login .btn{
+    background-image: linear-gradient(to right, #9AD0C2, #2D9596);
+    color: #fff;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+}
+
+.btn-register {
+    background-color: rgba(154, 208, 194, 0.6); /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-register:hover {
+    background-color: rgba(154, 208, 194, 0.8); /* Warna latar belakang saat dihover */
+}
+
+
+#login .card-img-top{
+    width: 100px;
+    height: auto;
+}
+
+#login .form-group{
+    margin: 15px;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#background-video .myVideo{
+    width: 100%;
+}
+
+/* home */
+.carousel-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Articles */
+#artikel {
+    padding: 80px 0;
+}
+
+#artikel h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#artikel .btn-outline-primary.active {
+    border-color: #2D9596 ;
+    background-color: #2D9596;
+    color: #fff;
+}
+
+#artikel .card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+#artikel .card:hover {
+    transform: translateY(-10px);
+}
+
+#artikel .card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    height: 200px;
+}
+
+#artikel .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#artikel .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#artikel .card-text {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+#artikel .badge {
+    margin-right: 5px;
+    font-size: 0.75rem;
+}
+
+.profile-card {
+    position: relative;
+    padding-top: 80px;
+}
+.profile-photo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 3px solid #2D9596;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+.modal-profile-photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
